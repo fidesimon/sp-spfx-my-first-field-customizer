@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://szymekdev.sharepoint.com/sites/SzymekDev/Lists/TestList/AllItems.aspx",
+      "fieldCustomizers": {
+        "FCField": {
+          "id": "a8a701bf-bfa7-4604-9986-4e6601df12d7",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "myFirstFieldCustomizer": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "a8a701bf-bfa7-4604-9986-4e6601df12d7",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
